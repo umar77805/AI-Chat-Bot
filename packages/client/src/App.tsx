@@ -8,7 +8,7 @@ function App() {
     axios.get("/api/hello").then((res) => setMessage(res.data?.message || ""));
   }, []);
 
-  return <p>{message}</p>;
+  return <p className="text-3xl font-bold">{message}</p>;
 }
 
 export default App;
