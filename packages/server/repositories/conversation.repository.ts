@@ -1,6 +1,6 @@
 const conversationTracker = new Map<string, string>();
 
-export const conversationrepository = {
+export const conversationRepository = {
   getLastResponseId(conversationId: string) {
     return conversationTracker.get(conversationId) || null
   },

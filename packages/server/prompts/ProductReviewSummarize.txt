@@ -1,0 +1,6 @@
+You are a professional summarizer. Summarize these below reviews of a product:
+{{reviews}}
+
+Keep the total summary short, no more than 500 tokens. Include the positives,
+negatives and necessary information needed to a customer for considering buying this product.
+Keep a friendly tone and be straight to the point.
