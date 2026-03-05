@@ -1,9 +1,9 @@
-import ReviewList from "./components/reviews/ReviewList";
+import HomePage from "./pages/Homepage/HomePage";
 
 function App() {
   return (
     <div className="p-4 h-screen">
-      <ReviewList productId="1" />
+      <HomePage />
     </div>
   );
 }
